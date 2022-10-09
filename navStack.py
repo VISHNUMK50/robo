@@ -2,7 +2,7 @@
 import rospy
 from geometry_msgs.msg import Twist,Vector3
 from sensor_msgs.msg import LaserScan
-global regions
+
 class controller:
     def __init__(self):
         """Initializes the parameters for ROS.
